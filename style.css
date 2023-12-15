@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+body {
+    background: #091111;
+    color: #e9eeee;
+    font-family: "FiraCode" ,monospace;
+    text-align: center;
+}
+
+#container {
+    height: 75vh;    
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 8.5rem 8.5rem 8.2rem;
+}
+
+.reset,.btn {
+    background-color: #9cd8db;
+    color: rgb(57, 102, 170);
+    border: none;
+}
+
+
+.reset,.newGame {
+    width: 7rem;
+    height: 2rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.newGame {
+    color: rgb(34, 182, 100);
+    background-color: #e9ffee;
+}
+
+.btn {
+    border-radius: 10px;
+    font-size: 4rem;
+    justify-content: center;
+    align-items: center;
+    height: 18vmin;
+    width: 18vmin;
+}
+
+.winner {
+    font-size: 2rem;
+    color: rgb(104, 147, 211);
+    text-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
